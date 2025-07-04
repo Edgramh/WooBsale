@@ -1,0 +1,26 @@
+.bsale_stock_sucursal
+{
+    display: block;
+    width: 100%
+}
+.bsale_stock_sucursal .titulo
+{
+    font-weight: bold;
+    margin: 0;
+}
+.bsale_stock_sucursal  ul li
+{
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.bsale_stock_sucursal  ul li .stock_info
+{
+    font-style: italic;
+    font-size: 0.8em;
+}
+/*solo vale para prods simples*/
+.variable-price .price .product_stock
+{
+    display: none;
+}

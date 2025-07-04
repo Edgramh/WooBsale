@@ -1,0 +1,86 @@
+.historial_div .toogle_historial
+{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #0000FF;
+}
+.historial_factura
+{
+    padding: 5px;
+    overflow: visible;
+    width: 200px;
+    /*background-color: #fff;*/
+    list-style-type: none;
+}
+.historial_factura li
+{
+    list-style-image: none;
+    line-height: 18px;
+    font-size: 11px;
+}
+.historial_factura li span,
+.historial_factura li span a{
+    font-size: 12px;
+    font-weight: normal;
+}
+.historial_factura li span
+{
+    margin-bottom: 4px;
+}
+.historial_factura li a
+{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #0000FF;
+    /*font-size: 11px;*/
+}
+
+.historial_factura li a.anulada
+{
+    text-decoration : line-through;
+    color: brown;
+}
+.historial_factura li a.vigente
+{
+    text-decoration : underline;
+    /*font-weight: bold;*/
+}
+
+/*estilos visor pdf*/
+#pdf_visor {
+    width: 80%;
+    height: 500px;
+    margin: 2px;
+    border: 2px solid gray;
+}
+
+#pdf_visor p {
+    padding: 1em;
+}
+
+#pdf_visor object {
+    display: block;
+    border: solid 1px #666;
+}
+
+.center
+{
+    text-align: center;
+}
+a.link
+{
+    text-decoration: underline;
+}
+/*parrafo de info de motivo nc para sii*/
+#info_tipo_devolucion{
+    max-width: 200px;
+    padding: 5px;
+}
+.historial_factura li a.anular{
+    color: red;
+}
+.errores, .errores li
+{
+    color: red !important;
+}
+
